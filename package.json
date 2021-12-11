@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,8 @@
     "cluster-service": "^2.1.4",
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1",
     "node": "^17.2.0"
   },
   "devDependencies": {

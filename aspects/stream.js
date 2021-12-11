@@ -3,8 +3,8 @@
 //duplex = readable + writable
 // transform = duplex + make changes during reading
 
-const fs = require('fs');
-const path = require('path');
+// const fs = require('fs');
+// const path = require('path');
 
 // fs.readFile(path.resolve(__dirname, 'test.txt'), (err, data) => {
 //     if (err) {
